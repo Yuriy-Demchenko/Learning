@@ -898,13 +898,11 @@ ARM Macro Assembler    Page 14
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=stm32f446ze_nucleo_usbd-fs/\startup_stm32f446xx.d -ostm32f446ze
-_nucleo_usbd-fs/\startup_stm32f446xx.o -IC:\Users\MSystem\STM32Cube\Repository\
-STM32Cube_FW_F4_V1.14.0\Projects\STM32F446ZE-Nucleo\Applications\USB_Device\HID
-_Standalone\MDK-ARM\RTE -ID:\Instal\MDK5\ARM\CMSIS\5.0.0\CMSIS\Include -ID:\Ins
-tal\MDK5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --
-predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 521" --predef
-ine="_RTE_ SETA 1" --predefine="STM32F446xx SETA 1" --list=startup_stm32f446xx.
-lst startup_stm32f446xx.s
+_nucleo_usbd-fs/\startup_stm32f446xx.o -ID:\git\HID_Standalone\MDK-ARM\RTE -ID:
+\Instal\MDK5\ARM\CMSIS\5.0.0\CMSIS\Include -ID:\Instal\MDK5\Keil\STM32F4xx_DFP\
+2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__MICROLIB SETA 1
+" --predefine="__UVISION_VERSION SETA 521" --predefine="_RTE_ SETA 1" --predefi
+ne="STM32F446xx SETA 1" --list=startup_stm32f446xx.lst startup_stm32f446xx.s
 
 
 
